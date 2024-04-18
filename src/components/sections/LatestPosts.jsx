@@ -28,7 +28,7 @@ const LatestPostsSection = () => {
     <>
       <Head>
         <title>FeizhouCom</title>
-        <meta name="description" content="FeizhouCom l'agence qui donne vie à votre identité, reflétant fidèlement votre essence et vos valeurs." /> {/* Added meta description */}
+        <meta name="description" content="FeizhouCom l'agence qui donne vie à votre identité, reflétant fidèlement votre essence et vos valeurs." />
         <meta name="keywords" content="seo, organisation, film, mangement, sites, anglais" />
         <meta name="author" content="FeizhouCom" />
       </Head>
@@ -41,12 +41,10 @@ const LatestPostsSection = () => {
             </div>
             <div className="col-lg-6 mil-mb-30">
               <div className="mil-adaptive-right mil-up">
-                <a
-                  className="mil-link mil-dark mil-arrow-place"
-                >
+                <button className="mil-link mil-dark mil-arrow-place" style={{ width: '48px', height: '48px' }}>
                   <span>voir plus</span>
                   <ArrowIcon />
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -71,10 +69,10 @@ const LatestPostsSection = () => {
                       <p className="mil-post-text mil-up mil-mb-30">
                         {blog.text}
                       </p>
-                      <div className="mil-link mil-dark mil-arrow-place mil-up">
+                      <button className="mil-link mil-dark mil-arrow-place mil-up" style={{ width: '48px', height: '48px' }}>
                         <span>Lire plus</span>
                         <ArrowIcon />
-                      </div>
+                      </button>
                     </div>
                   </Link>
                 </div>
