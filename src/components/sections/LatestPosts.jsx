@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link'; // Import Link from Next.js
+import Link from 'next/link';
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 
 const LatestPostsSection = () => {
@@ -28,7 +28,7 @@ const LatestPostsSection = () => {
     <>
       <Head>
         <title>FeizhouCom</title>
-        <meta name="description" content="FeizhouCom l'agence qui donne vie à votre identité,reflétant fidèlement votre essence et vos valeurs." />
+        <meta name="description" content="FeizhouCom l'agence qui donne vie à votre identité, reflétant fidèlement votre essence et vos valeurs." /> {/* Added meta description */}
         <meta name="keywords" content="seo, organisation, film, mangement, sites, anglais" />
         <meta name="author" content="FeizhouCom" />
       </Head>
@@ -63,7 +63,6 @@ const LatestPostsSection = () => {
                     </div>
                     <div className="mil-post-descr">
                       <div className="mil-labels mil-up mil-mb-30">
-                        {/* Assuming `Date` component renders the date properly */}
                         <div className="mil-label mil-upper">
                           <Date dateString={blog.createdAt} />
                         </div>
