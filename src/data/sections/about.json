@@ -1,0 +1,13 @@
+{
+    "image": {
+        "url": "/img/photo/Lo.jpg",
+        "alt": "img"
+    },
+    "avatar": {
+        "image": "/img/faces/customers/2.jpg",
+        "alt": "Founder"
+    },
+    "title": "À PROPOS <br/>DE <span class=\"mil-thin\">NOUS</span>",
+    "description": "<p>FeizhouCom est une agence de communication institutionnelle basée au Maroc, spécialisée dans la création et la gestion de l'identité visuelle et de la communication des entreprises et des institutions. Notre équipe dévouée et hautement qualifiée offre une gamme complète de services, allant du community management sur les réseaux sociaux à la production de films institutionnels, en passant par la gestion des relations publiques et la formation en communication digitale. Nous nous engageons à fournir des solutions sur mesure , tout en garantissant un impact maximal sur leur public cible .</p>",
+    "subtitle": "Passionately Creating <span class=\"mil-thin\">Design Wonders:</span> Unleashing <span class=\"mil-thin\">Boundless Creativity</span>"
+}

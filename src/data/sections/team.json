@@ -1,0 +1,122 @@
+{
+    "title": "Meet <br>Our Team",
+    "description": "<p>Pour toute question, commentaire ou demande de renseignements, n'hésitez pas à nous contacter. Notre équipe est là pour vous aider .</p>",
+    "subtitle": "<span class=\"mil-thin\">We</span> delivering <br><span class=\"mil-thin\">exceptional</span> results.",
+    "button": {
+        "link": "/team",
+        "label": "CONTACTEZ-NOUS"
+    },
+    "note": "<span class=\"mil-accent\">*</span> The founders of our agency",
+    "col1_items": [
+        {
+            "image": "/img/faces/1.jpg",
+            "name": "Anna Oldman",
+            "role": "Art Director",
+            "social": [
+                {
+                    "icon": "fab fa-behance",
+                    "link": "https://behance.com",
+                    "title": "behance"
+                },
+                {
+                    "icon": "fab fa-dribbble",
+                    "link": "https://dribbble.com",
+                    "title": "dribbble"
+                },
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com",
+                    "title": "twitter"
+                },
+                {
+                    "icon": "fab fa-github",
+                    "link": "https://github.com",
+                    "title": "github"
+                }
+            ]
+        },
+        {
+            "image": "/img/faces/3.jpg",
+            "name": "Oscar Freeman",
+            "role": "Frontend Dev",
+            "social": [
+                {
+                    "icon": "fab fa-behance",
+                    "link": "https://behance.com",
+                    "title": "behance"
+                },
+                {
+                    "icon": "fab fa-dribbble",
+                    "link": "https://dribbble.com",
+                    "title": "dribbble"
+                },
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com",
+                    "title": "twitter"
+                },
+                {
+                    "icon": "fab fa-github",
+                    "link": "https://github.com",
+                    "title": "github"
+                }
+            ]
+        }
+    ],
+    "col2_items": [
+        {
+            "image": "/img/faces/2.jpg",
+            "name": "Emma Newman",
+            "role": "Founder",
+            "social": [
+                {
+                    "icon": "fab fa-behance",
+                    "link": "https://behance.com",
+                    "title": "behance"
+                },
+                {
+                    "icon": "fab fa-dribbble",
+                    "link": "https://dribbble.com",
+                    "title": "dribbble"
+                },
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com",
+                    "title": "twitter"
+                },
+                {
+                    "icon": "fab fa-github",
+                    "link": "https://github.com",
+                    "title": "github"
+                }
+            ]
+        },
+        {
+            "image": "/img/faces/4.jpg",
+            "name": "Lisa Trueman",
+            "role": "UI/UX Designer",
+            "social": [
+                {
+                    "icon": "fab fa-behance",
+                    "link": "https://behance.com",
+                    "title": "behance"
+                },
+                {
+                    "icon": "fab fa-dribbble",
+                    "link": "https://dribbble.com",
+                    "title": "dribbble"
+                },
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com",
+                    "title": "twitter"
+                },
+                {
+                    "icon": "fab fa-github",
+                    "link": "https://github.com",
+                    "title": "github"
+                }
+            ]
+        }
+    ]
+}

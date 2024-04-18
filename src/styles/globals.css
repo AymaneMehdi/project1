@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* image popup */
+img.mfp-img {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  position: absolute;
+  max-height: 100%;
+  padding: 0 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mfp-img-container .mfp-close {
+  top: -110px;
+  right: -24px;
+}
+.bg-contact {
+  background: #ff5733;
+}
+.tit-about {
+  color: #ff5733;
+}
+@media screen and (max-width: 530px) {
+  .tit-about {
+    text-align: center;
+  }
+  .tit-service {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .desc-about {
+    text-align: center;
+  }
+  .devis-img {
+    display: none;
+  }
+}
+.blog-tit {
+  color: #ff5733;
+}
+/* swiper container hidden */
+.mil-wrapper .swiper-container {
+  overflow: visible;
+}
+@media (max-width: 1023px) {
+  .hid {
+    display: none;
+  }
+  .mil-animation-frame {
+    display: none;
+  }
+}

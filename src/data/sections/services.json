@@ -1,0 +1,74 @@
+{
+    "title1": "NOS <span class=\"mil-thin\">SERVICES</span>",
+    "title2": "NOS <span class=\"mil-thin\">SERVICES.</span>",
+    "subtitle": "Réver grand, agisser fort, accomplissez votre succès. ",
+    "button": {
+        "link": "/services",
+        "label": "What we do"
+    },
+    "items": [
+        {
+            "title": "CRÉATION D'ÉVÉNEMENTS INSTITUTIONNELS",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-1",
+            "img":"/img/photo/community.jpg",
+            "alt" : "service1"
+        },
+        {
+            "title": "CRÉATION ET ANALYSE DE SITES WEB INSTITUTIONNEL",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-2",
+            "img":"/img/photo/web.jpg",
+            "alt" : "service2"
+        },
+        {
+            "title": "SERVICES DE TRANSCRIPTION ET TRADUCTION PROFESSIONNELLE EN ANGLAIS",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-3",
+            "img":"/img/photo/language.jpg",
+            "alt" : "service3"
+        },
+        {
+            "title": "PRODUCTION DE FILMS INSTITUTIONNELS",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-4",
+            "img":"/img/photo/cinema.jpg",
+            "alt" : "service4"
+        },
+        {
+            "title": "COMMUNITY MANAGEMENT INSTITUTIONNELLE",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-4",
+            "img":"/img/photo/management.jpg",
+            "alt" : "service5"
+        },
+        {
+            "title": "ASSISTANCE COMPLÈTE EN MÉCÉNAT ET SPONSORING",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-4",
+            "img":"/img/photo/assistante.jpg",
+            "alt" : "service6"
+        },
+        {
+            "title": "COMMUNICATION INTERNE ET ENGAGEMENT DES EMPLOYÉS",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-4",
+            "img":"/img/photo/interne.jpg",
+            "alt" : "service7"
+        },
+        {
+            "title": "SERVICES DE RELATIONS PUBLIQUES (PRESSE)",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-4",
+            "img":"/img/photo/relation.jpg",
+            "alt" : "service8"
+        },
+        {
+            "title": "FORMATION EN COMMUNICATION INSTITUTIONNELLE ET DIGITALE ",
+            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
+            "link": "/services/service-4",
+            "img":"/img/photo/formation.jpg",
+            "alt" : "service9"
+        }
+    ]
+}
