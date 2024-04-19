@@ -5,7 +5,7 @@ import Link from 'next/link';
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 
 const LatestPostsSection = () => {
-  const [blogs, setBlogs] = useState([]);
+  const [blog, setBlog] = useState([]);
 
   useEffect(() => {
     fetchPosts();
@@ -13,12 +13,12 @@ const LatestPostsSection = () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch('https://back-end-zlgx.onrender.com/blogs');
+      const response = await fetch('https://back-end-zlgx.onrender.com/blogs/661d1fe10e4109b317847600');
       if (!response.ok) {
         throw new Error('Failed to fetch posts');
       }
       const fetchedBlogs = await response.json();
-      setBlogs(fetchedBlogs);
+      setBlog(fetchedBlogs);
     } catch (error) {
       console.error('Error fetching posts:', error);
     }
@@ -49,8 +49,9 @@ const LatestPostsSection = () => {
             </div>
           </div>
           <div className="row">
-            {blogs && blogs.slice(0, 2).map(blog => (
-              blog && (
+
+
+            
                 <div className="col-lg-6" key={`blog-post-${blog._id}`}>
                   <Link
                     href={`/blog/${blog._id}`}
@@ -76,8 +77,9 @@ const LatestPostsSection = () => {
                     </div>
                   </Link>
                 </div>
-              )
-            ))}
+
+
+            
           </div>
         </div>
       </section>
